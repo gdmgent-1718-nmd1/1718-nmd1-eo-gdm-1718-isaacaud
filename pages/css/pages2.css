@@ -73,41 +73,18 @@ h4{ font-size: 12pt;
 h5{ font-size: 20pt;
 
 }
+h6{
 
+
+}
 
 hr{
     width: 20%;
     margin: 0;
-    margin-bottom: 20px;
-    margin-top: 200px;
-}
-article{
-    width: 50%;
-    min-width: 300px;
-    margin-bottom: 100px;
-
-}
-a{ color: #ffffff;
-    font-size: 12pt;
-}
-a:hover{
-    color: #ff5c5c;
-    
-}
-a:active{
-    color: #ff282d;
-
+    margin-bottom: 5px;
+    margin-top: 5px
 }
 
-#inleidingtekst{
-width: 40%;
-margin-left: 1%;
-}
-
-#opsomming{
-    font-weight:bold;
-
-}
 
 .colorholder{
 background-color: #ffffff;
@@ -153,4 +130,68 @@ fotosrechts{
     float: right;
     margin-right: 20px;
     size: 10%
+}
+#wit{
+    background-color: #ffffff;
+    
+
+}
+#groen{
+    background-color: #94D869;
+}
+#grijs{
+    background-color:#444444;
+}
+#lichtgrijs{
+    background-color: #707070;
+}
+#zwart{
+    background-color: #000000;
+}
+
+
+a{
+    color: #000000;
+}
+
+/* navigatiebalk hover NOG INSTELLEN*/
+div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+/*typografie*/
+.nav{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    background-color: #333;
+    
 }
