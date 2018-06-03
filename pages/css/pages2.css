@@ -155,22 +155,27 @@ a{
 }
 
 /* navigatiebalk hover NOG INSTELLEN*/
+
+ #achtergrondnavbuttons{
+    position: absolute;
+    left: 0px;
+    top: 3000px;
+    z-index: -1;
+}
 .button {
-    display: inline-block;
-    border-radius: 4px;
-    
+    display: absolute;
+    left:0px;
+    top: 0px;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
+    font-size: 28pt;
+    padding: 10px;
+    width: 150px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
+
+
 }
   
   
@@ -241,9 +246,52 @@ a{
 
 }
 
+#fotos{
+    font-family: 'Quicksand', sans-serif;
+    color: #444444;
+    font-size: 20pt;
+    padding: 10px;
+    width: 100%;
+    font-weight: 80;
+   
+}
+
+
+#concertstext{
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    background-color: #a7a7a7;
+    font-size: 26pt;
+    padding: 10px;
+    width: 100%;
+    font-weight: 80;
+   
+}  
+
+
+#contact{
+    font-family: 'Quicksand', sans-serif;
+    color: #444444;
+    font-size: 28pt;
+    padding: 10px;
+    width: 100%;
+    font-weight: 140;
+   
+}  
+
+
+#contact2{
+    font-family: 'Quicksand', sans-serif;
+    color: #444444;
+    font-size: 22pt;
+    padding: 10px;
+    width: 100%;
+    font-weight: 10;
+   
+}  
 /*buttons*/
 
-/*button {
+/*buttons {
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -258,7 +306,7 @@ a{
     box-shadow: 0 9px #999;
   }
   
-  .button:hover {background-color: #3e8e41}
+  .buttons:hoveptr {background-color: #3e8e41}
   
   .button:active {
     background-color: #3e8e41;
