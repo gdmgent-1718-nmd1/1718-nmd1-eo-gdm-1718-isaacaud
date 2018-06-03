@@ -291,25 +291,147 @@ a{
 }  
 /*buttons*/
 
-/*buttons {
+.buttons1 {
     display: inline-block;
-    padding: 15px 25px;
+    padding: 15px 20px;
     font-size: 24px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #4CAF50;
+    background-color:#93D769;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
   
-  .buttons:hoveptr {background-color: #3e8e41}
+  .buttons1:hover {background-color: rgb(168, 241, 123)}
   
-  .button:active {
-    background-color: #3e8e41;
+  .buttons1:active {
+    background-color: rgb(168, 241, 123);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+
+/*deel2*/
+
+  .buttons2 {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#93D769;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .buttons2:hover {background-color: rgb(168, 241, 123)}
+  
+  .buttons2:active {
+    background-color: rgb(168, 241, 123);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/*deel 3*/
+.buttons3 {
+    background-color: #94D869; 
+    border: none;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18pt;
+    font-family: 'Quicksand', sans-serif;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 20px;
 }
+
+  .buttons3 {
+    background-color: white; 
+    color: #444444; 
+    border: 2px solid #94D869;
+}
+
+.buttons3:hover {
+    background-color: #94D869;
+    color: white;
+}
+
+/*deel4*/
+
+.buttons4 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #444444;
+    border: none;
+    color: #94D869;
+    text-align: center;
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 28px;
+    font-weight: 400;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .buttons4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttons4 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttons4:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttons4 :hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /*deel5*/
+  .buttons5 {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6E6E6E;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .buttons5:hover {background-color: #666; }
+  
+  .buttons5:active {
+    background-color: #666;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
